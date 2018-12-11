@@ -6,6 +6,9 @@
 * 処理ロジックにバグがある場合に履歴データを再処理する機能
 
 ## Backend
+![backend](https://github.com/takanorihozumi/ForPayPayTest/blob/master/images/backend_thozumi.png "backend")
+
+
 この規模のデータ量では、RDBで処理するには限界があります。<br>
 RDBを用いて、<br>
 レプリケーション・パーティショニングによるスケールアウトで対応する戦略を取るのではなく、<br>
